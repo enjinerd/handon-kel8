@@ -1,0 +1,21 @@
+.gif-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px #ccc;
+  gap: 10px;
+}
+
+.gif-container img {
+  width: 200px;
+  height: 200px;
+  align-self: center;
+}
+
+.gif-details {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  background-color: #121212;
+  color: #fff;
+}
